@@ -1,6 +1,6 @@
 --[[
 			Script LUA Aimware v5.1
-            This is a lua script for autobuy
+            	      This is a lua script for autobuy
 		UID: https://aimware.net/forum/user/338736
 --]]
 
