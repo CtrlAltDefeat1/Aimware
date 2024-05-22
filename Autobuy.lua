@@ -1,6 +1,6 @@
 --[[
 			Script LUA Aimware v5.1
-            	      This is a lua script for autobuy
+            This is a lua script for autobuy
 		UID: https://aimware.net/forum/user/338736
 --]]
 
@@ -13,7 +13,7 @@ local event_gameStart = "game_start"
 local event_prestart = "round_prestart"
 local event_FireGameEvent = "FireGameEvent"
 --items for Autobuy
-local buyScout = "buy sg008;"
+local buyScout = "buy ssg08;"
 local buyAwp = "buy awp;"
 local buyAsniper = "buy scar20; buy g3sg1;"
 
@@ -49,7 +49,7 @@ local buyDuals_checkbox = gui.Checkbox(pistols_groupbox, "buyDuals_checkbox", "B
 
 local armor_groupbox = gui.Groupbox(main_groupbox, "Armor", 295, 28, 280);
 local buyVest_checkbox = gui.Checkbox(armor_groupbox, "buyVest_checkbox", "Buy Kevlar", default);
-local buyHelmet_checkbox = gui.Checkbox(armor_groupbox, "buyHelmet_checkbox", "Buy Kevlar + Helment", default);
+local buyHelmet_checkbox = gui.Checkbox(armor_groupbox, "buyHelmet_checkbox", "Buy Kevlar + Helmet", default);
 
 local utilities_groupbox = gui.Groupbox(main_groupbox, "Utilities", 295, 159, 280);
 local buyFlash_checkbox = gui.Checkbox(utilities_groupbox, "buyFlash_checkbox", "Buy Flashbang", default);
